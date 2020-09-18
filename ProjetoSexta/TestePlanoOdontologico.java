@@ -5,12 +5,18 @@ public class TestePlanoOdontologico {
 		
 		Cotação cotacao = new Cotação();
 		
+		System.out.println("Olá! Seja bem vindo ao site da Sorriso Belo.\n\nInteressado em cuidar de sua saúde bucal? Faça uma cotação conosco!! \n");
+		System.out.println();
+		System.out.println("*************************************************************");
+		System.out.println();
+		
 		cotacao.pegarNome();
 		cotacao.pegarEmail();
-		cotacao.pegarIdade();
-		cotacao.pegarQuantidade();
+		cotacao.pegarInfoTaxa();
 		
-		cotacao.orçamentoFinal();
+		cotacao.mostrarOrçamento();
+		
+		
 		
 	}
 }

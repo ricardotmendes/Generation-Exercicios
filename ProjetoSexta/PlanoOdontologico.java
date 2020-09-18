@@ -10,7 +10,7 @@ public class PlanoOdontologico {
 	private String email;
 	private int idade;
 	private int quantidade;
-	private double orçamento;
+	
 	
 	
 	
@@ -57,20 +57,6 @@ public class PlanoOdontologico {
 	}
 
 
-	public double getOrçamento() {
-		return orçamento;
-	}
-
-
-	public void setOrçamento(double orçamento) {
-		this.orçamento = orçamento;
-	}
-	
-	
-	
-	
-	
-	
 	
 	
 	
