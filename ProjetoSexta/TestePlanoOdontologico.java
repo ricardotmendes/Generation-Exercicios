@@ -3,8 +3,14 @@ package ProjetoSexta;
 public class TestePlanoOdontologico {
 	public static void main (String args[]) {
 		
-		Cotação c = new Cotação();
+		Cotação cotacao = new Cotação();
 		
-		c.pegarNome();
+		cotacao.pegarNome();
+		cotacao.pegarEmail();
+		cotacao.pegarIdade();
+		cotacao.pegarQuantidade();
+		
+		cotacao.orçamentoFinal();
+		
 	}
 }

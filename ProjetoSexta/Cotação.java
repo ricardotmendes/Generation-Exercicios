@@ -1,37 +1,46 @@
 package ProjetoSexta;
 	import java.util.*;
 public class Cotação extends PlanoOdontologico{
-	
+		
+		 
+		
 		Scanner ler = new Scanner(System.in);
-			
-		public void pegarNome() {
-			
+		int planoInfantil = 100;
+		int planoJuvenil = 130;
+		int planoAdulto = 140;
+		int planoSenior = 160; 
+		
+		
+		public void pegarNome() {			
 			System.out.println("Por favor informe seu nome: ");
 			super.setNome(ler.next());
-			
-			
 			}
 		
-		public void pegarEmail() {
-			
-			System.out.println("Seu emai: ");
+		public void pegarEmail() {			
+			System.out.println("Seu email: ");
 			super.setEmail(ler.next());
-						
-			}
-		public void pegarIdade() {
-			
-			System.out.println("Por favor informe seu nome: ");
-			super.setIdade(ler.nextInt());
-			
-			
 			}
 		
-public void pegarQuantidade() {
-			
-			System.out.println("O plano é individual? Se não, por favor para quantas pessoas está interessado(a) :");
+		public void pegarQuantidade() {			
+			System.out.println("Para quantas pessoas? ");
 			super.setQuantidade(ler.nextInt());
-			
-			
 			}
 		
+		public void pegarIdade() {			
+			
+			System.out.println("Sua idade: ");
+			super.setIdade(ler.nextInt());
+			}
+		
+		
+		
+		public void orçamentoFinal() {
+			
+			if(getQuantidade()==2) {
+				double getOrçamento = 2*140;
+				System.out.printf("O valor do seu orçamento ficou R$ "+getOrçamento);
+			}
+		}	
+		
+			
 }

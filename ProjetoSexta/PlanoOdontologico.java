@@ -1,6 +1,11 @@
 package ProjetoSexta;
 
+
+
 public class PlanoOdontologico {
+	
+	
+	
 	private String nome;
 	private String email;
 	private int idade;
@@ -8,11 +13,9 @@ public class PlanoOdontologico {
 	private double orçamento;
 	
 	
-	public PlanoOdontologico() {
-		
-	}
-
 	
+	
+		
 
 	public String getNome() {
 		return nome;
@@ -62,6 +65,13 @@ public class PlanoOdontologico {
 	public void setOrçamento(double orçamento) {
 		this.orçamento = orçamento;
 	}
+	
+	
+	
+	
+	
+	
+	
 	
 	
 }
